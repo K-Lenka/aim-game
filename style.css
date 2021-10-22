@@ -15,6 +15,7 @@ body {
 a {
     color: #fff;
     text-decoration: none;
+    transition: all 0.3 ease-in;
 }
 
 a:hover {
@@ -22,12 +23,24 @@ a:hover {
 }
 
 .start {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
+    padding: 8px 24px 0 24px;
+    text-transform: uppercase;
+}
+
+.start:hover {
+    border-radius: 22px;
+    border: 2px solid #e37e16;
 }
 
 h1 {
     line-height: 1.4;
     font-size: 4rem;
+}
+
+h2 {
+    line-height: 1.3;
+    font-size: 4.1rem;
 }
 
 .screen {
@@ -68,8 +81,26 @@ h1 {
 }
 
 .time-btn:hover {
-    border: 2px solid #16D9E3;
+    border: 2px solid #e37e16;
     color: #16D9E3;
+}
+
+.time_left {
+    letter-spacing: 1.2px;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play_again {
+    letter-spacing: 1.5px;
+}
+
+.play_again:hover {
+    color: #e37e16;
 }
 
 .hide {
